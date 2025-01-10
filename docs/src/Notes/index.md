@@ -3,18 +3,22 @@ layout: page
 sidebar: false
 
 hero:
-  title: "Document"
-  subTitle: "📚 欢迎来到本项目的使用说明书"
+  title: "Blog"
+  subTitle: "🐭 新鲜出炉的寄鼠博客"
 
 types:
-  - name: "使用指南"
-    desc: "How to Use"
+  - name: "学习笔记 🤓👆"
+    desc: "Nerd's Note"
     link: "/Notes/0tutorial/quickstart"
     icon: "✨"
-  - name: "面经分享"
-    desc: "interview experiences"
+  - name: "面经分享 😋"
+    desc: "kao da ji lu"
     link: "/Notes/Interviews/"
     icon: "🏃"
+  - name: "杂谈 😎"
+    desc: "jiberjaber"
+    link: "/Notes/Chat/"
+    icon: "🐟"
 # flow: true
 ---
 

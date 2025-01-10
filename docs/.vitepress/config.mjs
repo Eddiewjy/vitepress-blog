@@ -4,15 +4,14 @@ import { getSidebar } from "./utils/getSidebar";
 
 export default defineConfig({
   // 标签上显示的网站标题
-  title: "Easy VitePress Blog",
+  title: "Eddie's Blog",
   titleTemplate: "Blog",
   // 在标签上显示所的 logo
   head: [["link", { rel: "icon", href: "/logo.svg" }]],
 
   // 网站描述，有利于被搜索引擎捕获
   description:
-    "zbwer's tech blog: An undergraduate's journey through frontend development, sharing insights, tips, and experiences in web technologies.",
-
+    "Eddie's Tech Blog: A passionate undergraduate's journey into frontend development. Explore insights, tutorials, and practical tips on web technologies, JavaScript, React, and more, as Eddie shares his learning experience and projects.",
   // md 文件根目录
   // 【谨慎修改】：一旦修改将引起较多变动
   srcDir: "./src",
@@ -29,10 +28,10 @@ export default defineConfig({
       { text: "👫 Friends", link: "Friends.md" },
     ],
     // 顶部导航栏左侧的社交平台跳转
-    socialLinks: [{ icon: "github", link: "https://github.com/ZbWeR" }],
+    socialLinks: [{ icon: "github", link: "https://github.com/Eddiewjy" }],
     // 首页底部版权声明
     footer: {
-      copyright: "Copyright © 2023-present zbwer",
+      copyright: "Copyright © 2025-present Eddie",
     },
     // 【文章页面左侧导航】
     sidebar: {
@@ -61,7 +60,9 @@ export default defineConfig({
         },
         {
           find: /^.*\/VPFooter\.vue$/,
-          replacement: fileURLToPath(new URL("./components/Footer.vue", import.meta.url)),
+          replacement: fileURLToPath(
+            new URL("./components/Footer.vue", import.meta.url)
+          ),
         },
       ],
     },
