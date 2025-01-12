@@ -9,7 +9,7 @@ hero:
 types:
   - name: "学习笔记 🤓👆"
     desc: "Nerd's Note"
-    link: "/Notes/0tutorial/quickstart"
+    link: "/Notes/Learning/"
     icon: "✨"
   - name: "面经分享 😋"
     desc: "kao da ji lu"
