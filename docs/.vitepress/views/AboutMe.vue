@@ -91,6 +91,7 @@
               </div>
               <div class="flex-shrink-0 w-20 h-20 p-4 bg-red-200 rounded-lg">
                 <img src="./img/html.svg" alt="" />
+
               </div>
               <div class="flex-shrink-0 w-20 h-20 p-4 rounded-lg bg-sky-200">
                 <img src="./img/css.svg" alt="" />
@@ -188,7 +189,7 @@
           <div class="absolute w-full h-full bg-center bg-no-repeat bg-cover sport-bg"></div>
           <div class="relative flex flex-col justify-between h-full p-4">
             <p class="text-[15px] text-slate-50">精神氮泵</p>
-            <h1 class="flex-1 mt-2 text-5xl font-bold text-white">Chris</h1>
+            <h1 class="flex-1 mt-2 text-5xl font-bold text-black">Chris</h1>
             <p class="self-end mt-2 text-sm text-right text-slate-100">
               Daddy's Home
             </p>

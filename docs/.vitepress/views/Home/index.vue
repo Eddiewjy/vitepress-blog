@@ -1,27 +1,26 @@
 <template>
-  <div class="home flex h-screen w-screen items-center justify-center">
+  <div class="flex items-center justify-center w-screen h-screen home">
     <EmojiBackground />
     <div class="-mt-10 flex w-screen animate-scale-in-center flex-col px-4 sm:-mt-40 sm:w-[626px]">
       <!-- <Vue3Lottie :animationData="lottieData" class="w-full sm:w-[626px]" /> -->
       <div
-        class="relative mt-6 flex w-full flex-col items-center rounded-lg bg-white/85 py-6 text-zinc-800 shadow shadow-black/40 backdrop-blur-sm">
+        class="relative flex flex-col items-center w-full py-6 mt-6 rounded-lg shadow bg-white/85 text-zinc-800 shadow-black/40 backdrop-blur-sm">
         <div class="text-2xl font-bold sm:text-3xl">
-          <span class="shake-hand inline-block">👋</span> Hi, I am
-          <span class="bg-gradient-to-r from-pink-500 to-rose-500 bg-clip-text text-transparent">Eddie Wu</span>.
+          <span class="inline-block shake-hand">👋</span> Hi, I am
+          <span class="text-transparent bg-gradient-to-r from-pink-500 to-rose-500 bg-clip-text">Eddie Wu</span>.
         </div>
-        <p class="mt-2 text-base sm:text-lg">
+        <p class="mt-2 text-base sm:text-xl">
           Geek / Front-End Developer / Lifelong Learner
         </p>
-        <p class="mt-1 text-black/50">"Just something I can turn to"</p>
-        <p class=" text-black/50">"Somebody I can kiss"</p>
-        <p class=" text-black/50">"I want something just like this"</p>
-        <div class="mt-4 flex gap-4">
+        <p class="mt-4 text-black/50">" Just something I can turn to, somebody I can kiss "</p>
+        <p class=" text-black/50">" I want something just like this "</p>
+        <div class="flex gap-4 mt-4">
           <div @click="router.go('/AboutMe/')"
-            class="button relative w-fit cursor-pointer rounded-full bg-white active:scale-95">
+            class="relative bg-white rounded-full cursor-pointer button w-fit active:scale-95">
             🎉 Welcome
           </div>
           <div @click="gotoGithub"
-            class="button button-github relative inline-flex cursor-pointer rounded-full bg-white active:scale-95">
+            class="relative inline-flex bg-white rounded-full cursor-pointer button button-github active:scale-95">
             <RiGithubLine class="w-5" />
             Github
           </div>
