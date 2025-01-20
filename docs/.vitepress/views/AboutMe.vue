@@ -153,8 +153,8 @@
         <!-- 荣誉 -->
         <div
           class="bg-stripe w-full md:w-[50%] bg-slate-50 border dark:bg-slate-800 dark:border-slate-900 p-4 rounded-xl">
-          <p class="text-[15px]">骄傲的事</p>
-          <h1 class="mt-2 text-4xl font-bold">一些成就</h1>
+          <p class="text-[15px]">experience</p>
+          <h1 class="mt-2 text-4xl font-bold">Web之路</h1>
           <div class="mt-4 md:text-base lg:text-xl">
             <p class="py-1">虚位以待</p>
             <p class="py-1">虚位以待</p>
@@ -178,9 +178,9 @@
           <div class="relative flex flex-col justify-between h-full p-4">
             <p class="text-[15px] text-slate-200">preference on music</p>
             <h1 class="mt-1.5 text-4xl font-bold text-pink-300">Pop</h1>
-            <h1 class="mt-1.5 text-4xl font-bold text-white">R&B</h1>
-            <h1 class="mt-1.5 text-2xl font-bold text-white">Rap只听不会唱</h1>
-            <p class="self-end mt-2 text-right text-bg text-slate-100 ">《我想》</p>
+            <h1 class="mt-1.5 text-4xl font-bold text-sky-500">R&B</h1>
+            <h1 class="mt-1.5 text-4xl font-bold text-indigo-500">Rap</h1>
+            <p class="self-end mt-2 text-right text-bg text-slate-400 ">"我想呼风唤雨~"</p>
           </div>
         </div>
 
