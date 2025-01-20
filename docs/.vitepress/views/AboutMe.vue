@@ -213,20 +213,14 @@
   filter: brightness(0.6);
 }
 
-.game-bg {
-  background-image: url("./img/game.png");
-  filter: brightness(0.8);
-}
+
 
 .sport-bg {
   background-image: url("./img/sport.jpg");
   filter: brightness(0.6);
 }
 
-.movie-bg {
-  background-image: url("./img/movie.jpg");
-  filter: brightness(0.6);
-}
+
 
 .avatar-ping {
   animation: avatarPing 2s ease-in infinite;

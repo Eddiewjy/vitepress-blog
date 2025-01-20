@@ -27,14 +27,7 @@ export const friendsInfo: Friend[] = [
     link: "https://Yaossg.com",
     tag: "DevOps",
     color: "pink",
-  },
-  {
-    avatar: "https://avatars.githubusercontent.com/u/106670529?v=4",
-    name: "风唤长河",
-    title: "懂不懂全栈开发の含金量",
-    link: "https://ventusvocatflumen.cn/",
-    tag: "FullStack",
-    color: "sky",
-  },
+  }
+  
   
 ];
