@@ -7,7 +7,7 @@ hero:
   subTitle: "🐭 新鲜出炉的寄鼠博客"
 
 types:
-  - name: "学习笔记 🤓👆"
+  - name: "学习笔记 🤓"
     desc: "Nerd's Note"
     link: "/Notes/Learning/"
     icon: "✨"
@@ -17,7 +17,7 @@ types:
     icon: "🏃"
   - name: "杂谈 😎"
     desc: "jiberjaber"
-    link: "/Notes/Chat/"
+    link: "/Notes/Thoughts/"
     icon: "🐟"
 # flow: true
 ---

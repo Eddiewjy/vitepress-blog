@@ -12,15 +12,15 @@ interface Project {
  */
 export const projectsInfo: Project[] = [
   {
-    banner: "/project-img/gpt-feishu.png",
+    banner: "/project-img/dinosaur.png",
     title: "Feishu&ChatGPT",
     description:
-      "将 chatGPT 接入飞书对话机器人，支持上下文对话与人格预设，并使用aircode一键部署",
-    link: "https://github.com/ZbWeR/feishu-chatGPT-plus",
-    tag: "JavaScript",
+      "mundu校园论坛(类掘金)",
+    link: "https://github.com/trancecho/mundo-fe",
+    tag: "React",
   },
   {
-    banner: "/project-img/cloudMusic.png",
+    banner: "/project-img/dinosaur.png",
     title: "CloudMusic",
     description: "对移动端网易云音乐的模仿与复现，实现了虚拟列表与无限滚动...",
     link: "https://github.com/ZbWeR/NeteaseCloudMusic",

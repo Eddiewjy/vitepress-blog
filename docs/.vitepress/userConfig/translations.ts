@@ -8,5 +8,5 @@
 export const fileName2Title: Record<string, string> = {
   Learning: "🧐 学习笔记",
   Interviews: "📜 面试归档",
-  Chat: "🦭 杂谈",
+  Thoughts: "🦭 杂谈",
 };
