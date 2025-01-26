@@ -12,22 +12,22 @@ interface Friend {
  * 在此处填写你的友情链接
  */
 export const friendsInfo: Friend[] = [
-  {
-    avatar: "https://avatars.githubusercontent.com/u/108183563?v=4",
-    name: "ZzzRemake",
-    title: "🚀 全能 🐳",
-    link: "https://zzzremake.github.io/",
-    tag: "Research Associate",
-    color: "indigo",
-  },
-  {
-    avatar: "https://avatars.githubusercontent.com/u/29620619?v=4",
-    name: "Yaossg",
-    title: "强大的计算机科学家🧐",
-    link: "https://Yaossg.com",
-    tag: "DevOps",
-    color: "pink",
-  }
+  // {
+  //   avatar: "https://avatars.githubusercontent.com/u/108183563?v=4",
+  //   name: "ZzzRemake",
+  //   title: "🚀 全能 🐳",
+  //   link: "https://zzzremake.github.io/",
+  //   tag: "Research Associate",
+  //   color: "indigo",
+  // },
+  // {
+  //   avatar: "https://avatars.githubusercontent.com/u/29620619?v=4",
+  //   name: "Yaossg",
+  //   title: "强大的计算机科学家🧐",
+  //   link: "https://Yaossg.com",
+  //   tag: "DevOps",
+  //   color: "pink",
+  // }
   
   
 ];

@@ -7,7 +7,7 @@ export default defineConfig({
   title: "Eddie's Blog",
   titleTemplate: "Blog",
   // 在标签上显示所的 logo
-  head: [["link", { rel: "icon", href: "/logo.svg" }]],
+  head: [["link", { rel: "icon", href: "/logo.png" }]],
 
   // 网站描述，有利于被搜索引擎捕获
   description:
@@ -19,7 +19,7 @@ export default defineConfig({
   // 主题自定义
   themeConfig: {
     // 网站左上角 logo
-    logo: "/logo.svg",
+    // logo: "/logo.png",
     // 顶部导航栏
     nav: [
       { text: "👋 About", link: "/AboutMe.md" },

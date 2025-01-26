@@ -1,17 +1,18 @@
-const obj = { name: "Alice", age: 25 };
+function Person(name) {
+  this.name = name;
+}
 
-const proxy = new Proxy(obj, {
-  get: (target, prop, receiver) => Reflect.get(target, prop, receiver),
-  set: (target, prop, value, receiver) =>
-    Reflect.set(target, prop, value, receiver),
-  has: (target, prop) => Reflect.has(target, prop),
-  deleteProperty: (target, prop) => Reflect.deleteProperty(target, prop),
-});
+Person.prototype.sayHello = function () {
+  console.log("Hello!");
+};
 
-console.log(proxy.name); // "Alice"
-proxy.age = 30; // 赋值正常
-console.log(proxy.age); // 30
-console.log("age" in proxy); // true
+const p1 = new Person("Alice");
+p1.sayHello(); // 输出：Hello!
 
-delete proxy.age; // 删除 age
-console.log(proxy.age); // undefined
+Person.prototype.sayHello = function () {
+  console.log("Hi!");
+};
+
+const p2 = new Person("Bob");
+p2.sayHello(); // 输出：Hi!
+p1.sayHello(); // 输出：Hi!

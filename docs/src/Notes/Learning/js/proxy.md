@@ -103,7 +103,7 @@ console.log(proxy(2, 3)); // 调用函数: sum(2, 3) -> 5
 
 # Reflect
 
-`Reflect` 是ES6新增的全局对象，能够让Proxy拦截时更简洁安全。
+`Reflect` 是ES6新增的全局对象，能够让Proxy拦截时更简洁安全。简而言之，使用proxy时返回reflect对象更好。
 
 ### **💡 为什么 `Proxy` 需要 `Reflect`？**
 

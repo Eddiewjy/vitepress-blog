@@ -12,19 +12,19 @@ interface Project {
  */
 export const projectsInfo: Project[] = [
   {
-    banner: "/project-img/dinosaur.png",
-    title: "Feishu&ChatGPT",
+    banner: "/project-img/mundo.png",//暂时没有图片
+    title: "mundo论坛",
     description:
-      "mundu校园论坛(类掘金)",
+      "类掘金式的论坛网站，前后台分离",
     link: "https://github.com/trancecho/mundo-fe",
     tag: "React",
   },
   {
-    banner: "/project-img/dinosaur.png",
-    title: "CloudMusic",
-    description: "对移动端网易云音乐的模仿与复现，实现了虚拟列表与无限滚动...",
-    link: "https://github.com/ZbWeR/NeteaseCloudMusic",
-    tag: "Vue",
+    banner: "/project-img/markdown.png",//暂时没有图片
+    title: "IMarkdown",
+    description: "基于原生TS自主设计解析器的Markdown编辑器,支持扩展语法",
+    link: "https://github.com/Eddiewjy/md-parser",
+    tag: "TypeScript",
   }
   
 ];
