@@ -3,7 +3,7 @@ title: "日志"
 ---
 
 <details>
-  <summary>2024-1</summary>
+  <summary>2025-1</summary>
   <ul>
     <li>09： 复习高数大物，准备期末考；搞了这个日志，用见简单的话描述一下今天干了啥😋（现在还有点人机）</li>
     <li>10：看了点大物（真的只有一点，指相对论）；选了下课，下学期预计计网+计组+数据库+软工+概统，拉满了（电音）；vitepress稍微设置了一下，顺便看一手vue</li>
@@ -26,7 +26,117 @@ title: "日志"
     <li>27：又一个好消息，imd终于不卡了，先把开源的搬过来，把丐版搞明白先，再把接口对上就差不多了，令人激动。这就是“得意忘形（不纠细节而看框架）”的感觉吗，有点爽</li>
     <li>28: dirty work，需要的源码都搬过来，部分转为ts；动规入门，爬楼梯和打家劫舍解决。btw除夕快乐~</li>
     <li>29: 入手mbp, 5.7k电池100+循环，期待发货。</li>
-    <li>30: </li>
-    <li>31: </li>
+    <li>30: 看电影+玩ing</li>
+    <li>31: mac真给我爽完了，丝滑触控板，高清小屏幕，就是还得适应两天</li>
   </ul>
 </details>
+
+<details>
+  <summary>2025-2</summary>
+  <ul>
+    <li>01：适应mac中；imd基本上只剩dirty work，调试一下让他们去debug。</li>
+    <li>02：</li>
+    <li>03：</li>
+    <li>04：</li>
+    <li>05：</li>
+    <li>06：</li>
+    <li>07：</li>
+    <li>08：</li>
+    <li>09：</li>
+    <li>10：</li>
+    <li>11：</li>
+    <li>12：</li>
+    <li>13：</li>
+    <li>14：</li>
+    <li>15：</li>
+    <li>16：</li>
+    <li>17：</li>
+    <li>18：</li>
+    <li>19：</li>
+    <li>20：</li>
+    <li>21：</li>
+    <li>22：</li>
+    <li>23：</li>
+    <li>24：</li>
+    <li>25：</li>
+    <li>26：</li>
+    <li>27：</li>
+    <li>28：</li>
+    <li>29：</li>
+  </ul>
+</details>
+
+<details>
+  <summary>2025-3</summary>
+  <ul>
+    <li>01：</li>
+    <li>02：</li>
+    <li>03：</li>
+    <li>04：</li>
+    <li>05：</li>
+    <li>06：</li>
+    <li>07：</li>
+    <li>08：</li>
+    <li>09：</li>
+    <li>10：</li>
+    <li>11：</li>
+    <li>12：</li>
+    <li>13：</li>
+    <li>14：</li>
+    <li>15：</li>
+    <li>16：</li>
+    <li>17：</li>
+    <li>18：</li>
+    <li>19：</li>
+    <li>20：</li>
+    <li>21：</li>
+    <li>22：</li>
+    <li>23：</li>
+    <li>24：</li>
+    <li>25：</li>
+    <li>26：</li>
+    <li>27：</li>
+    <li>28：</li>
+    <li>29：</li>
+    <li>30：</li>
+    <li>31：</li>
+  </ul>
+</details>
+
+<details>
+  <summary>2025-4</summary>
+  <ul>
+    <li>01：</li>
+    <li>02：</li>
+    <li>03：</li>
+    <li>04：</li>
+    <li>05：</li>
+    <li>06：</li>
+    <li>07：</li>
+    <li>08：</li>
+    <li>09：</li>
+    <li>10：</li>
+    <li>11：</li>
+    <li>12：</li>
+    <li>13：</li>
+    <li>14：</li>
+    <li>15：</li>
+    <li>16：</li>
+    <li>17：</li>
+    <li>18：</li>
+    <li>19：</li>
+    <li>20：</li>
+    <li>21：</li>
+    <li>22：</li>
+    <li>23：</li>
+    <li>24：</li>
+    <li>25：</li>
+    <li>26：</li>
+    <li>27：</li>
+    <li>28：</li>
+    <li>29：</li>
+    <li>30：</li>
+  </ul>
+</details>
+
+
