@@ -2,15 +2,11 @@
   <VPTeamPage>
     <VPTeamPageTitle>
       <template #title>🎨 Friends 🙌</template>
-      <template #lead>Awesome Friends from Diverse Fields of Expertise</template>
+      <template #lead>🫡 Kudos to all those who selflessly share their knowledge and resources. </template>
     </VPTeamPageTitle>
     <div class="px-6 md:px-12 lg:px-16">
       <div class="FriendsContent">
-        <FriendsCard
-          v-for="(item, index) in friendsInfo"
-          :key="index"
-          v-bind="item"
-        ></FriendsCard>
+        <FriendsCard v-for="(item, index) in friendsInfo" :key="index" v-bind="item"></FriendsCard>
       </div>
     </div>
   </VPTeamPage>

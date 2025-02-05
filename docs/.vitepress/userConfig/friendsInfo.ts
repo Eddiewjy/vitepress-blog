@@ -27,7 +27,13 @@ export const friendsInfo: Friend[] = [
   //   link: "https://Yaossg.com",
   //   tag: "DevOps",
   //   color: "pink",
-  // }
-  
-  
+  // },
+  {
+    avatar: "https://avatars.githubusercontent.com/u/129849919?v=4",
+    name: "yukki",
+    title: "🚀 全能学长 ",
+    link: "https://cjliblog.top/",
+    tag: "Backend/FullStack",
+    color: "indigo",
+  },
 ];

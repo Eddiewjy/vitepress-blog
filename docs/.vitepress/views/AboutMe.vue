@@ -13,20 +13,20 @@
         <!-- Right-tags -->
         <p style="top: 32%"
           class="tag-bounce hidden sm:block sm:left-[69%] md:left-[66%] lg:left-[63%] xl:left-[60%] absolute px-3 py-0.5 text-sm font-bold rounded-full shadow-[0px_0px_1px_1px#eee]">
-          🎵 欧美流行患者
+          🎵 跟风欧美流行
         </p>
         <p style="top: 60%"
           class="tag-bounce hidden sm:block sm:left-[69%] md:left-[66%] lg:left-[63%] xl:left-[60%] absolute px-3 py-0.5 text-sm font-bold rounded-full shadow-[0px_0px_1px_1px#eee]">
-          饮水机管理员 🏀
+          球场摸鱼之道 🏀
         </p>
         <!-- Left-tags -->
         <p style="top: 32%"
           class="tag-bounce hidden sm:block sm:left-[8%] md:left-[13%] lg:left-[21%] xl:left-[27%] absolute px-3 py-0.5 text-sm font-bold rounded-full shadow-[0px_0px_1px_1px#eee]">
-          🔥 健身房细狗
+          🔥 头怎么尖尖的
         </p>
         <p style="top: 60%"
           class="tag-bounce hidden sm:block sm:left-[8%] md:left-[13%] lg:left-[21%] xl:left-[27%] absolute px-3 py-0.5 text-sm font-bold rounded-full shadow-[0px_0px_1px_1px#eee]">
-          chatgpt沟通学 💬
+          ai依赖患者 💬
         </p>
       </div>
       <!-- 概述与箴言 -->
@@ -37,7 +37,7 @@
             class="dark:from-sky-700 dark:to-teal-600 dark:border-slate-900 w-full flex flex-col justify-center rounded-xl border py-4 px-8 text-white md:w-[59%] bg-gradient-to-r from-sky-400 to-teal-400">
             <p class="text-lg text-slate-50">你好, 我是Eddie 👋</p>
             <h1 class="text-2xl font-bold xl:text-3xl lg:break-normal lg:break-words">
-              A Passionate Fixer, Developer, Thinker
+              A Passionate Fixer🦾 Developer🕵️ Thinker🤔
             </h1>
             <p class="text-slate-100">前端开发 / 架构设计 / 健身 🔥</p>
           </div>
@@ -71,7 +71,7 @@
           <p class="text-[15px]">个人标签</p>
           <div class="mt-2">
             <h1 class="text-xl">
-              Major in <span class="text-yellow-200">Computer Science 🧐</span>
+              Major in <span class="text-yellow-200">Computer Science 💻</span>
             </h1>
             <h1 class="text-xl">
               Keen on <span class="text-pink-500">Softwear Engineering 🛠️</span>
@@ -156,8 +156,8 @@
           <p class="text-[15px]">experience</p>
           <h1 class="mt-2 text-4xl font-bold">Web之路</h1>
           <div class="mt-4 md:text-base lg:text-xl">
-            <p class="py-1">虚位以待</p>
-            <p class="py-1">虚位以待</p>
+            <p class="py-1 text-blue-300">“IMD”微型Web端Markdown解析器，自主设计解析器架构（字节青训项目）</p>
+            <p class="py-1 text-pink-400">“mundo”校园论坛，负责后台和客服系统💁，致力于为用户提供流畅、贴心的服务体验。</p>
             <p class="py-1">虚位以待</p>
             <p class="py-1">虚位以待</p>
             <p class="py-1">虚位以待</p>

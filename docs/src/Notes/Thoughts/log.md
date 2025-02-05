@@ -35,10 +35,10 @@ title: "日志"
   <summary>2025-2</summary>
   <ul>
     <li>01：适应mac中；imd基本上只剩dirty work，调试一下让他们去debug。</li>
-    <li>02：</li>
-    <li>03：</li>
-    <li>04：</li>
-    <li>05：</li>
+    <li>02：重构imd解析器，状态机，token，规则链可以顺利连接</li>
+    <li>03：梳理具体规则，尝试简化，尝试jest但失败</li>
+    <li>04：集中处理导入模块的后缀问题，非常抽象，转为esm后模块导入必须要携带.js</li>
+    <li>05：手动添加后缀，debug一下基础规则</li>
     <li>06：</li>
     <li>07：</li>
     <li>08：</li>
