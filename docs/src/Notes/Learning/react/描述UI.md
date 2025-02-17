@@ -41,7 +41,7 @@ const element = <img src="image.png" alt="example">
 
 ```
 
-#### \*高级：jsx转化器：在线或babel
+#### 高级：jsx转化器：在线或babel
 
 将现有的 HTML 中的所有属性转化 JSX 的格式是很繁琐的。我们建议使用 [转化器](https://transform.tools/html-to-jsx) 将 HTML 和 SVG 标签转化为 JSX。这种转化器在实践中非常有用。但我们依然有必要去了解这种转化过程中发生了什么，这样你就可以编写自己的 JSX 了。
 
