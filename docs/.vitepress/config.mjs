@@ -5,7 +5,7 @@ import { getSidebar } from "./utils/getSidebar";
 export default defineConfig({
   // 标签上显示的网站标题
   title: "Eddie's Blog",
-  titleTemplate: "Blog",
+  titleTemplate: "👋",
   // 在标签上显示所的 logo
   head: [["link", { rel: "icon", href: "/logo.png" }]],
 

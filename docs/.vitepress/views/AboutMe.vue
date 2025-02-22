@@ -86,61 +86,40 @@
           <div class="mt-2 overflow-hidden">
             <!-- TODO:封装ICON组件,抽离背景颜色与svg地址 -->
             <div class="flex gap-4 w-fit icon-scroll">
-              <div class="flex justify-center flex-shrink-0 w-20 h-20 p-4 rounded-lg bg-emerald-200">
-                <img src="./img/vue.svg" alt="vue.js" />
+              <div class="flex justify-center flex-shrink-0 w-20 h-20 p-4 rounded-lg bg-slate-200">
+                <img class="rounded-lg" src="./img/python.svg" alt="" />
+              </div>
+              <div class="flex justify-center flex-shrink-0 w-20 h-20 p-4 bg-blue-100 rounded-lg">
+                <img src="./img/react.svg" alt="" />
               </div>
               <div class="flex-shrink-0 w-20 h-20 p-4 bg-red-200 rounded-lg">
                 <img src="./img/html.svg" alt="" />
+              </div>
+              <div class="flex-shrink-0 w-20 h-20 p-4 rounded-lg bg-sky-200">
+                <img src="./img/css.svg" alt="" />
+              </div>
+              <div class="flex justify-center flex-shrink-0 w-20 h-20 p-4 rounded-lg bg-slate-200">
+                <img src="./img/tailwind.svg" alt="" />
+              </div>
+              <div class="flex justify-center w-20 h-20 p-4 flex-shrink-0 rounded-lg bg-[#f7cb4f]">
+                <img class="rounded-lg" src="./img/js.webp" alt="" />
+              </div>
+              <div class="flex justify-center flex-shrink-0 w-20 h-20 p-4 bg-gray-200 rounded-lg">
+                <img class="rounded-lg" src="./img/ts.svg" alt="" />
+              </div>
+              <div class="flex justify-center flex-shrink-0 w-20 h-20 p-4 bg-purple-100 rounded-lg">
+                <img class="rounded-lg" src="./img/vite.svg" alt="" />
+              </div>
+              <div class="flex justify-center flex-shrink-0 w-20 h-20 p-4 bg-red-400 rounded-lg">
+                <img class="rounded-lg" src="./img/git.svg" alt="" />
+              </div>
+              <div class="flex justify-center flex-shrink-0 w-20 h-20 p-4 rounded-lg bg-rose-200">
+                <img class="rounded-lg" src="./img/npm.svg" alt="" />
+              </div>
+              <div class="flex justify-center flex-shrink-0 w-20 h-20 p-4 bg-indigo-200 rounded-lg">
+                <img class="rounded-lg" src="./img/eslint.svg" alt="" />
+              </div>
 
-              </div>
-              <div class="flex-shrink-0 w-20 h-20 p-4 rounded-lg bg-sky-200">
-                <img src="./img/css.svg" alt="" />
-              </div>
-              <div class="flex justify-center flex-shrink-0 w-20 h-20 p-4 rounded-lg bg-slate-200">
-                <img src="./img/tailwind.svg" alt="" />
-              </div>
-              <div class="flex justify-center w-20 h-20 p-4 flex-shrink-0 rounded-lg bg-[#f7cb4f]">
-                <img class="rounded-lg" src="./img/js.webp" alt="" />
-              </div>
-              <div class="flex justify-center flex-shrink-0 w-20 h-20 p-4 bg-red-400 rounded-lg">
-                <img class="rounded-lg" src="./img/git.svg" alt="" />
-              </div>
-              <div class="flex justify-center flex-shrink-0 w-20 h-20 p-4 rounded-lg bg-slate-200">
-                <img class="rounded-lg" src="./img/python.svg" alt="" />
-              </div>
-              <div class="flex justify-center flex-shrink-0 w-20 h-20 p-4 rounded-lg bg-rose-200">
-                <img class="rounded-lg" src="./img/npm.svg" alt="" />
-              </div>
-              <div class="flex justify-center flex-shrink-0 w-20 h-20 p-4 bg-indigo-200 rounded-lg">
-                <img class="rounded-lg" src="./img/eslint.svg" alt="" />
-              </div>
-              <div class="flex justify-center flex-shrink-0 w-20 h-20 p-4 rounded-lg bg-emerald-200">
-                <img src="./img/vue.svg" alt="vue.js" />
-              </div>
-              <div class="flex-shrink-0 w-20 h-20 p-4 bg-red-200 rounded-lg">
-                <img src="./img/html.svg" alt="" />
-              </div>
-              <div class="flex-shrink-0 w-20 h-20 p-4 rounded-lg bg-sky-200">
-                <img src="./img/css.svg" alt="" />
-              </div>
-              <div class="flex justify-center flex-shrink-0 w-20 h-20 p-4 rounded-lg bg-slate-200">
-                <img src="./img/tailwind.svg" alt="" />
-              </div>
-              <div class="flex justify-center w-20 h-20 p-4 flex-shrink-0 rounded-lg bg-[#f7cb4f]">
-                <img class="rounded-lg" src="./img/js.webp" alt="" />
-              </div>
-              <div class="flex justify-center flex-shrink-0 w-20 h-20 p-4 bg-red-400 rounded-lg">
-                <img class="rounded-lg" src="./img/git.svg" alt="" />
-              </div>
-              <div class="flex justify-center flex-shrink-0 w-20 h-20 p-4 rounded-lg bg-slate-200">
-                <img class="rounded-lg" src="./img/python.svg" alt="" />
-              </div>
-              <div class="flex justify-center flex-shrink-0 w-20 h-20 p-4 rounded-lg bg-rose-200">
-                <img class="rounded-lg" src="./img/npm.svg" alt="" />
-              </div>
-              <div class="flex justify-center flex-shrink-0 w-20 h-20 p-4 bg-indigo-200 rounded-lg">
-                <img class="rounded-lg" src="./img/eslint.svg" alt="" />
-              </div>
             </div>
           </div>
         </div>
@@ -190,7 +169,7 @@
           <div class="relative flex flex-col justify-between h-full p-4">
             <p class="text-[15px] text-slate-50">精神氮泵</p>
             <h1 class="flex-1 mt-2 text-5xl font-bold text-black">Chris</h1>
-            <p class="self-end mt-2 text-sm text-right text-slate-100">
+            <p class="self-end mt-2 text-sm text-right text-gray-800">
               Daddy's Home
             </p>
           </div>
@@ -255,7 +234,7 @@
 }
 
 .icon-scroll {
-  animation: iconScroll 20s linear infinite;
+  animation: iconScroll 10s linear infinite;
 }
 
 @keyframes iconScroll {
@@ -264,7 +243,7 @@
   }
 
   100% {
-    transform: translateX(-50%);
+    transform: translateX(-40%);
   }
 }
 </style>
