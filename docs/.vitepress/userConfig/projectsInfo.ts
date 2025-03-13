@@ -25,4 +25,18 @@ export const projectsInfo: Project[] = [
     link: "https://github.com/Eddiewjy/md-parser",
     tag: "TypeScript",
   },
+  {
+    banner: "/project-img/portfolio.png", //
+    title: "portfolio个人作品集",
+    description: "炫技个人作品集，使用了很多fancy的ui库，还可以发邮件",
+    link: "https://github.com/Eddiewjy/portfolio",
+    tag: "React",
+  },
+  {
+    banner: "/project-img/acme.png", //
+    title: "ACME",
+    description: "基于NextJS的完整Web应用,基本涵盖NextJS的所有特性",
+    link: "https://github.com/Eddiewjy/demo-nextjs-dashboard",
+    tag: "NextJS",
+  },
 ];

@@ -10,10 +10,10 @@
 
 组件的导出方式决定了其导入方式。当你用默认导入的方式，导入具名导出的组件时，就会报错。如下表格可以帮你更好地理解它们：
 
-| 语法 | 导出语句                              | 导入语句                                |
-| ---- | ------------------------------------- | --------------------------------------- |
-| 默认 | `export default function Button() {}` | `import Button from './Button.js';`     |
-| 具名 | `export function Button() {}`         | `import { Button } from './Button.js';` |
+| 语法  | 导出语句                                  | 导入语句                                    |
+| --- | ------------------------------------- | --------------------------------------- |
+| 默认  | `export default function Button() {}` | `import Button from './Button.js';`     |
+| 具名  | `export function Button() {}`         | `import { Button } from './Button.js';` |
 
 当使用默认导入时，你可以在 `import` 语句后面进行任意命名。比如 `import Banana from './Button.js'`，如此你能获得与默认导出一致的内容。相反，对于具名导入，导入和导出的名字必须一致。这也是称其为 **具名** 导入的原因！
 
