@@ -19,7 +19,7 @@ export const projectsInfo: Project[] = [
     tag: "React",
   },
   {
-    banner: "/project-img/markdown.png", //
+    banner: "/project-img/markdown.png",
     title: "IMarkdown",
     description: "基于原生TS自主设计解析器的Markdown编辑器,支持扩展语法",
     link: "https://github.com/Eddiewjy/md-parser",
