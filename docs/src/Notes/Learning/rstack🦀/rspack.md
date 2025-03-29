@@ -1,0 +1,2 @@
+rspack是一款rust编写的bundler，其上是作为构建工具的rsbuild。值得与之对比的是最近发布的rolldown，有点像webpack vs rollup。
+

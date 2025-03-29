@@ -1,0 +1,1 @@
+为了统一vite在dev和prod环境的工具不一致性，rolldown应运而生。作为围绕vite的统一工具链的重要部分，rolldown必须有不输esbuild的性能和不输rollup的可扩展性。

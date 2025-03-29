@@ -1,8 +1,9 @@
-import { defineConfig } from "vitepress";
+// import { defineConfig } from "vitepress";
 import { fileURLToPath, URL } from "node:url";
 import { getSidebar } from "./utils/getSidebar";
+import { withMermaid } from "vitepress-plugin-mermaid";
 
-export default defineConfig({
+export default withMermaid({
   // 标签上显示的网站标题
   title: "Eddie's Blog",
   titleTemplate: "👋",
