@@ -50,4 +50,8 @@ flowchart TD
 根据此原理，rollup会优化掉你引入了但是没调用的函数，跟标记清除的原理略有类似
 
 - code- split：根据依赖，将模块划分为不同的 chunk
-- dynamic-import：
+- dynamic-import：在模块用到的时候才导入
+
+# 细节补充
+
+在最后generate的时候，会使用magic-string库，将soucecode添加到实例中（其实是拼接字符串）。在最后拼接完后就可以输出为file/stdout了
