@@ -1,2 +1,2 @@
-rspack是一款rust编写的bundler，其上是作为构建工具的rsbuild。值得与之对比的是最近发布的rolldown，有点像webpack vs rollup。
+字节内部有很多巨石项目，他们为了加快打包就选择自己研发一个bundler。而rspack作为一个rust开发的bundler性能很高，且完全兼容webpack，是十分优秀的替代品。
 

@@ -2,7 +2,7 @@
 
 > Bun is a fast JavaScript runtime, package manager, bundler, and test runner.
 
-## 什么是运行时（runtime）？
+# 什么是运行时（runtime）？
 
 JavaScript（或正式名称 ECMAScript）只是一种编程语言的 规范。任何人都可以编写一个 JavaScript 引擎，用于接收并执行有效的 JavaScript 程序。目前最流行的两个 JavaScript 引擎是 V8（由 Google 开发） 和 JavaScriptCore（由 Apple 开发）。这两个 JavaScript 引擎都是开源的。
 
