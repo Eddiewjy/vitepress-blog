@@ -1,3 +1,10 @@
+---
+title: "rollup原理📦"
+desc: "对bundler的粗浅理解"
+tags: "bundler"
+updateTime: "2025-04-05 19:38"
+---
+
 rollup会将小分散的模块打包📦为大模块，在这个过程中会进行复杂的依赖分析（选项分析，图构建），tree shaking优化（此树即为ast；值得一提的是这里的思想确实借鉴了垃圾回收，我的直觉是对的😋），代码分割（分为chunk）。最终生成最小bundle
 
 基本用法可见[官方教程](https://www.rollupjs.com/tutorial/) ,主要包括cli, config的不同配置。cli能力还是比较有限（源码里占比也不多），开发肯定还是直接用配置文件。配置内容包括：
