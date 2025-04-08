@@ -78,3 +78,23 @@ function throttle(fn, delay = 500) {
     }, delay);
   };
 }
+
+//元编程思想之proxy
+const target = {
+  message1: "abc",
+  message2: "def",
+};
+const handler = {
+  get: function (target, props, recevier) {
+    if (props === "message1") {
+      return "proxy nihao";
+    }
+    return Reflect.get(...arguments);
+  },
+};
+const proxy = new Proxy.get(target, handler);
+console.log(proxy.message1); // proxy nihao
+console.log(proxy.message2); // def
+console.log(target.message1); // abc
+
+//装饰器
