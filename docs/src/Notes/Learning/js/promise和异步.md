@@ -40,7 +40,7 @@ const promise = new Promise((resolve, reject) => {
 ```
 
 2. **处理 Promise 的结果**
-   - 使用 `.then()` 处理成功的结果。
+   - 使用 `.then()` 处理成功的结果。->不准确，then是注册promise的回调函数，如果返回值是普通值，会正常传递给下个then；如果返回值是promise对象，则会等待这个promise对象的结果。
    - 使用 `.catch()` 处理失败的结果。
 
 ```javascript
