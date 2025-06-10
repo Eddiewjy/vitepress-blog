@@ -39,7 +39,7 @@
             <h1 class="text-2xl font-bold xl:text-3xl lg:break-normal lg:break-words">
               A Passionate Fixer🦾 Developer🕵️ Thinker🤔
             </h1>
-            <p class="text-slate-100">前端开发 / 架构设计 / 健身 🔥</p>
+            <p class="text-slate-100">一个喜欢与他人交流的开发者</p>
           </div>
           <!-- 箴言 -->
           <div
@@ -86,9 +86,7 @@
           <div class="mt-2 overflow-hidden">
             <!-- TODO:封装ICON组件,抽离背景颜色与svg地址 -->
             <div class="flex gap-4 w-fit icon-scroll">
-              <div class="flex justify-center flex-shrink-0 w-20 h-20 p-4 rounded-lg bg-slate-200">
-                <img class="rounded-lg" src="./img/python.svg" alt="" />
-              </div>
+
               <div class="flex justify-center flex-shrink-0 w-20 h-20 p-4 bg-blue-100 rounded-lg">
                 <img src="./img/react.svg" alt="" />
               </div>
@@ -110,16 +108,18 @@
               <div class="flex justify-center flex-shrink-0 w-20 h-20 p-4 bg-purple-100 rounded-lg">
                 <img class="rounded-lg" src="./img/vite.svg" alt="" />
               </div>
-              <div class="flex justify-center flex-shrink-0 w-20 h-20 p-4 bg-red-400 rounded-lg">
-                <img class="rounded-lg" src="./img/git.svg" alt="" />
+              <div class="flex justify-center flex-shrink-0 w-20 h-20 p-4 rounded-lg bg-slate-200">
+                <img class="rounded-lg" src="./img/nextjs.svg" alt="" />
               </div>
-              <div class="flex justify-center flex-shrink-0 w-20 h-20 p-4 rounded-lg bg-rose-200">
-                <img class="rounded-lg" src="./img/npm.svg" alt="" />
+              <div class="flex justify-center flex-shrink-0 w-20 h-20 p-4 bg-purple-100 rounded-lg">
+                <img class="rounded-lg" src="./img/redux.svg" alt="" />
               </div>
-              <div class="flex justify-center flex-shrink-0 w-20 h-20 p-4 bg-indigo-200 rounded-lg">
-                <img class="rounded-lg" src="./img/eslint.svg" alt="" />
+              <div class="flex justify-center flex-shrink-0 w-20 h-20 p-4 bg-yellow-200 rounded-lg">
+                <img class="rounded-lg" src="./img/pnpm.svg" alt="" />
               </div>
-
+              <div class="flex justify-center flex-shrink-0 w-20 h-20 p-4 rounded-lg bg-zinc-900">
+                <img class="rounded-lg" src="./img/node.svg" alt="" />
+              </div>
             </div>
           </div>
         </div>
@@ -135,16 +135,15 @@
           <p class="text-[15px]">experience</p>
           <h1 class="mt-2 text-4xl font-bold">Web之路</h1>
           <div class="mt-4 md:text-base lg:text-xl">
-            <p class="py-1 text-blue-300">“IMD”微型Web端Markdown解析器，自主设计解析器架构（字节青训项目）</p>
-            <p class="py-1 text-pink-400">“mundo”校园论坛，负责后台和客服系统💁，致力于为用户提供流畅、贴心的服务体验。</p>
+            <p class="py-1 text-purple-300">"IMD" 在线Markdown编辑器，自主设计解析器模块（字节青训项目）</p>
+            <p class="py-1 text-pink-400">"未央mundo"校园论坛，负责后台和客服系统，服务于校内同学，支持连线客服答疑</p>
+            <p class="py-1 text-blue-500">2025/3～2025/6 新中大科技股份有限公司 前端开发工程师</p>
             <p class="py-1">虚位以待</p>
             <p class="py-1">虚位以待</p>
             <p class="py-1">虚位以待</p>
             <p class="py-1">虚位以待</p>
             <p class="py-1">虚位以待</p>
-            <p class="py-1">虚位以待</p>
-            <p class="py-1">虚位以待</p>
-            <p class="py-1">虚位以待</p>
+
           </div>
         </div>
       </div>
