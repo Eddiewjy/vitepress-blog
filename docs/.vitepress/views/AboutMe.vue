@@ -44,7 +44,7 @@
           <!-- 箴言 -->
           <div
             class="bg-stripe dark:border-slate-900 dark:bg-slate-800 md:w-[39%] w-full rounded-xl border p-4 bg-slate-50">
-            <p class="text-[15px]">不唯一的motto</p>
+            <p class="text-[15px]">motto座右铭</p>
             <div>
               <h1 class="text-3xl leading-9">
                 <span class="hidden font-bold text-teal-400 md:inline-block">Determination&nbsp;
@@ -90,6 +90,9 @@
               <div class="flex justify-center flex-shrink-0 w-20 h-20 p-4 bg-blue-100 rounded-lg">
                 <img src="./img/react.svg" alt="" />
               </div>
+              <div class="flex justify-center flex-shrink-0 w-20 h-20 p-4 bg-green-200 rounded-lg">
+                <img src="./img/vue.svg" alt="" />
+              </div>
               <div class="flex-shrink-0 w-20 h-20 p-4 bg-red-200 rounded-lg">
                 <img src="./img/html.svg" alt="" />
               </div>
@@ -133,16 +136,14 @@
         <div
           class="bg-stripe w-full md:w-[50%] bg-slate-50 border dark:bg-slate-800 dark:border-slate-900 p-4 rounded-xl">
           <p class="text-[15px]">experience</p>
-          <h1 class="mt-2 text-4xl font-bold">Web之路</h1>
+          <h1 class="mt-2 text-4xl font-bold">一些经历</h1>
           <div class="mt-4 md:text-base lg:text-xl">
-            <p class="py-1 text-purple-300">"IMD" 在线Markdown编辑器，自主设计解析器模块（字节青训项目）</p>
-            <p class="py-1 text-pink-400">"未央mundo"校园论坛，负责后台和客服系统，服务于校内同学，支持连线客服答疑</p>
-            <p class="py-1 text-blue-500">2025/3～2025/6 新中大科技股份有限公司 前端开发工程师</p>
-            <p class="py-1">虚位以待</p>
-            <p class="py-1">虚位以待</p>
-            <p class="py-1">虚位以待</p>
-            <p class="py-1">虚位以待</p>
-            <p class="py-1">虚位以待</p>
+            <p class="py-1 font-semibold text-blue-400">2025/3 IMD —— 智能开源Markdown编辑器，独立设计并实现词法解析引擎，顺利结项（字节跳动青训营优秀项目）
+            </p>
+            <p class="py-1 font-semibold text-indigo-400">2025/7 AdventureX杭州黑客松 Virtuals赛道冠军🏆</p>
+            <p class="py-1 font-semibold text-green-400">2025/8 ETH深圳黑客松 Innovative Dapps冠军🏆</p>
+            <p class="py-1 text-lg font-semibold text-red-400">2025/5～2025/8 哈啰普惠科技有限公司 前端开发实习生</p>
+            <p class="py-1 font-semibold" style="color: #de73ff">2025/8~now Virtuals Protocol DevRel开发者关系工程师</p>
 
           </div>
         </div>
@@ -242,7 +243,7 @@
   }
 
   100% {
-    transform: translateX(-40%);
+    transform: translateX(-20%);
   }
 }
 </style>

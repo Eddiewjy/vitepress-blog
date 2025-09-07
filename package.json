@@ -29,6 +29,8 @@
   },
   "dependencies": {
     "@remixicon/vue": "^4.6.0",
+    "@vueuse/core": "^13.5.0",
+    "@vueuse/motion": "^3.0.3",
     "dayjs": "^1.11.13",
     "gray-matter": "^4.0.3"
   }
