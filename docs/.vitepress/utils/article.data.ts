@@ -16,7 +16,7 @@ export default createContentLoader("Notes/**/*.md", {
         frontmatter,
         date: formatDate(frontmatter.updateTime),
       }))
-      .filter((post) => /.html/.test(post.url) && !post.frontmatter.hidden)
+      .filter((post) => /.html/.test(post.url) && !post.frontmatter.hidden && !/\/Notes\/(Interviews|Thoughts)\//.test(post.url))
       .sort((a, b) => b.date.time - a.date.time);
   },
 });

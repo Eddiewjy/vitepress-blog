@@ -5,6 +5,7 @@ import { fileName2Title } from "../userConfig/translations.js";
 import { formatDate } from "./formatDate.js";
 
 const INDEX_FILE = "index";
+const HIDDEN_DIRS = ["Interviews", "Thoughts"];
 
 interface SideBar {
   text: string;
@@ -45,6 +46,7 @@ function generate(notesRootPath: string, pagePath: string, prefix = "", depth = 
     const stats = statSync(filePath);
     // 对于目录
     if (stats.isDirectory()) {
+      if (HIDDEN_DIRS.includes(file)) continue;
       const childItems = generate(notesRootPath, file, relDir, depth + 1);
       // 剔除不包含 md 文件的目录
       if (childItems[0].items!.length === 0) continue;
