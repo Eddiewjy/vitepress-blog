@@ -1,16 +1,16 @@
 <template>
   <div class="lg:sticky lg:top-20">
     <!-- 类别 -->
-    <div class="px-2 pb-3 border-b-2 border-sky-400 dark:border-sky-700">
+    <div class="px-2 pb-3 border-b-2 border-amber-500 dark:border-amber-700">
       <h1
-        class="pb-2 text-3xl font-bold transition-all duration-300 border-b-4 border-sky-500 dark:border-sky-700 w-fit hover:pr-6"
+        class="pb-2 text-3xl font-bold transition-all duration-300 border-b-4 border-amber-500 dark:border-amber-700 w-fit hover:pr-6"
       >
         🏷️ 文章分类
       </h1>
       <div class="mt-4">
         <div
           @click="openLink(category.link)"
-          class="relative px-2 py-1 transition-all rounded-lg hover:cursor-pointer hover:bg-sky-200/80 dark:hover:bg-sky-900/80"
+          class="relative px-2 py-1 transition-all rounded-lg hover:cursor-pointer hover:bg-amber-100/80 dark:hover:bg-amber-900/40"
           v-for="category in categories"
           :key="category.name"
         >

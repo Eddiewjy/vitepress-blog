@@ -45,5 +45,12 @@ export const projectsInfo: Project[] = [
     description: "基于uniapp+vue的小程序，支持地图导航+AR",
     link: "https://github.com/trancecho/time-traveler-fr/tree/dev",
     tag: "Vue"
+  },
+  {
+    banner: "/project-img/mindkit.png",
+    title: "mindkit",
+    description: "AI-Native协作拓扑平台，结构化思维与智能协作",
+    link: "https://github.com/Eddiewjy/mindkit",
+    tag: "TypeScript"
   }
 ]

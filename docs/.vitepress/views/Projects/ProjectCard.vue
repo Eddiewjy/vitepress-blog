@@ -1,7 +1,7 @@
 <template>
     <div
       @click="openLink"
-      class="overflow-hidden transition-all duration-300 border rounded-lg cursor-pointer hover:border-indigo-800 dark:hover:border-sky-300 bg-slate-50 dark:bg-slate-800 dark:border-transparent group"
+      class="overflow-hidden transition-all duration-300 border rounded-lg cursor-pointer hover:border-amber-600 dark:hover:border-amber-400 bg-white dark:bg-stone-800 dark:border-stone-700 group"
     >
       <!-- banner -->
       <div class="w-full h-40">
@@ -23,7 +23,7 @@
           </p>
         </div>
         <p
-          class="mt-2 text-sm transition-all duration-300 line-clamp-2 text-slate-400 group-hover:text-slate-800 dark:group-hover:text-slate-100"
+          class="mt-2 text-sm transition-all duration-300 line-clamp-2 text-stone-400 group-hover:text-stone-700 dark:group-hover:text-stone-200"
         >
           {{ description }}
         </p>
@@ -38,17 +38,21 @@
   const littleBadgeColor = computed(() => {
     switch (projectsInfo.tag) {
       case "JavaScript":
-        return "bg-yellow-400 text-white";
+        return "bg-amber-400 text-white";
       case "Python":
-        return "bg-sky-700 text-white";
+        return "bg-stone-600 text-white";
       case "Vue":
-        return "bg-teal-400 text-white";
+        return "bg-emerald-600 text-white";
       case "TypeScript":
-        return "bg-sky-400 text-white";
+        return "bg-amber-500 text-white";
+      case "React":
+        return "bg-amber-600 text-white";
+      case "Nextjs":
+        return "bg-stone-800 text-white";
       case "C++":
-        return "bg-red-400 text-white";
+        return "bg-orange-500 text-white";
       default:
-        return "border";
+        return "border border-stone-300 dark:border-stone-600";
     }
   });
   

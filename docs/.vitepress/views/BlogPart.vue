@@ -2,7 +2,7 @@
   <div class="w-full max-w-6xl mx-auto">
     <!-- 类别标题 -->
     <h1
-      class="pb-2 text-3xl font-bold transition-all duration-300 border-b-4 border-sky-500 dark:border-sky-700 w-fit hover:pr-7"
+      class="pb-2 text-3xl font-bold transition-all duration-300 border-b-4 border-amber-500 dark:border-amber-700 w-fit hover:pr-7"
     >
       {{ columnData.text }}
     </h1>
@@ -13,7 +13,7 @@
         class="w-full mt-6 list-none lg:px-2 lg:w-[33%]"
       >
         <div
-          class="p-4 transition-all duration-300 border rounded-lg dark:bg-slate-800 dark:border-slate-900 lg:dark:hover:border-sky-400 bg-zinc-50 group lg:hover:border-indigo-800"
+          class="p-4 transition-all duration-300 border rounded-lg dark:bg-stone-800 dark:border-stone-700 lg:dark:hover:border-amber-400 bg-white group lg:hover:border-amber-600"
         >
           敬请期待
         </div>
@@ -26,7 +26,7 @@
         class="mt-6 lg:px-2 list-none min-w-full lg:min-w-[33%] flex-1 cursor-pointer"
       >
         <div
-          class="flex flex-col justify-between p-4 transition-all duration-300 border rounded-lg lg:h-full dark:bg-slate-800 dark:border-slate-900 lg:dark:hover:border-sky-400 bg-zinc-50 group lg:hover:border-indigo-800 hover:-translate-y-3"
+          class="flex flex-col justify-between p-4 transition-all duration-300 border rounded-lg lg:h-full dark:bg-stone-800 dark:border-stone-700 lg:dark:hover:border-amber-400 bg-white group lg:hover:border-amber-600 hover:-translate-y-3"
         >
           <!-- 更新时间 -->
           <p class="text-sm text-zinc-400">
@@ -36,7 +36,7 @@
           <h1 class="mt-1 text-2xl font-bold">{{ item.text }}</h1>
           <!-- 摘要 -->
           <p
-            class="flex-1 mt-2 transition-all duration-300 text-black/60 dark:text-slate-500 dark:group-hover:text-white/80 group-hover:text-black line-clamp-3"
+            class="flex-1 mt-2 transition-all duration-300 text-black/60 dark:text-stone-500 dark:group-hover:text-white/80 group-hover:text-black line-clamp-3"
           >
             {{ item.desc }}
           </p>
@@ -57,7 +57,7 @@
     <div v-if="latestThreeArticle.length" class="flex justify-end pr-5">
       <div
         @click="openLink(columnData.link)"
-        class="flex items-center transition-all cursor-pointer dark:text-slate-400 dark:hover:text-sky-400 text-black/50 hover:text-sky-500"
+        class="flex items-center transition-all cursor-pointer dark:text-stone-400 dark:hover:text-amber-400 text-black/50 hover:text-amber-500"
       >
         <p class="mr-1 text-sm">View More</p>
         <svg

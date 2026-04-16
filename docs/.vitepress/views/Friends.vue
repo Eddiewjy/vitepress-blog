@@ -1,8 +1,8 @@
 <template>
   <VPTeamPage>
     <VPTeamPageTitle>
-      <template #title>🎨 Friends 🙌</template>
-      <template #lead>🫡 Kudos to all those who selflessly share their knowledge and resources. </template>
+      <template #title>Friends</template>
+      <template #lead>Kudos to all those who selflessly share their knowledge and resources.</template>
     </VPTeamPageTitle>
     <div class="px-6 md:px-12 lg:px-16">
       <div class="FriendsContent">

@@ -1,23 +1,23 @@
 <template>
   <div @click="openLink"
-    class="flex flex-col items-center w-full h-full p-6 transition-all duration-300 border cursor-pointer bg-stripe group hover:border-indigo-800 dark:hover:border-sky-300 dark:border-transparent bg-slate-50 dark:bg-slate-800 dark:text-slate-300 rounded-xl">
+    class="flex flex-col items-center w-full h-full p-6 transition-all duration-300 border cursor-pointer bg-stripe group hover:border-amber-600 dark:hover:border-amber-400 dark:border-stone-700 bg-white dark:bg-stone-800 dark:text-stone-300 rounded-xl">
     <!-- 头像 -->
     <div class="w-16 h-16 overflow-hidden rounded-full VP-shadow">
       <img :src="avatar" :alt="name" />
     </div>
     <!-- 简介 -->
     <div class="w-full text-center">
-      <h1 class="text-lg font-bold tracking-wider dark:text-zinc-200">
+      <h1 class="text-lg font-bold tracking-wider dark:text-stone-200">
         {{ name }}
       </h1>
       <div>
-        <Badge :color="color || 'sky'">{{ tag }}</Badge>
+        <Badge :color="color || 'amber'">{{ tag }}</Badge>
       </div>
-      <p class="w-full mt-1 break-words line-clamp-2 dark:text-zinc-400">
+      <p class="w-full mt-1 break-words line-clamp-2 dark:text-stone-400">
         {{ title }}
       </p>
       <p
-        class="inline-block mt-2 text-sm text-indigo-400 transition-all duration-300 border-b border-indigo-400 dark:text-sky-400 dark:border-sky-400 sm:opacity-0 group-hover:opacity-100">
+        class="inline-block mt-2 text-sm text-amber-600 transition-all duration-300 border-b border-amber-600 dark:text-amber-400 dark:border-amber-400 sm:opacity-0 group-hover:opacity-100">
         🔗{{ shortLink }}
       </p>
     </div>
@@ -48,17 +48,17 @@ function openLink() {
 
 .bg-stripe:hover {
   background-image: repeating-linear-gradient(45deg,
-      hsl(0 0% 100%),
-      hsl(0 0% 100%) 13px,
-      hsl(0 0% 95%) 13px,
-      hsl(0 0% 95%) 14px);
+      hsl(35 30% 98%),
+      hsl(35 30% 98%) 13px,
+      hsl(35 25% 94%) 13px,
+      hsl(35 25% 94%) 14px);
 }
 
 .dark .bg-stripe:hover {
   background-image: repeating-linear-gradient(45deg,
-      hsl(202, 80%, 24%),
-      hsl(202, 80%, 24%) 13px,
-      hsl(200, 80%, 20%) 13px,
-      hsl(200, 80%, 20%) 14px);
+      hsl(30, 20%, 18%),
+      hsl(30, 20%, 18%) 13px,
+      hsl(30, 20%, 15%) 13px,
+      hsl(30, 20%, 15%) 14px);
 }
 </style>

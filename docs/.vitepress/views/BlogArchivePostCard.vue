@@ -1,7 +1,7 @@
 <template>
   <div
     @click="openLink(post.url)"
-    class="relative py-4 mt-6 transition-all border rounded-lg cursor-pointer dark:border-transparent hover:border-indigo-800 break-inside-avoid-column bg-zinc-50/50 sm:pl-0 dark:bg-slate-800/80 first:mt-0 dark:hover:bg-sky-950/80 dark:hover:border-sky-300"
+    class="relative py-4 mt-6 transition-all border rounded-lg cursor-pointer dark:border-stone-700 hover:border-amber-600 break-inside-avoid-column bg-white/80 sm:pl-0 dark:bg-stone-800/80 first:mt-0 dark:hover:bg-amber-950/50 dark:hover:border-amber-400"
   >
     <!-- <p
       class="hidden pl-4 font-mono text-4xl sm:block text-sky-400/50 dark:text-slate-200/50"
@@ -17,7 +17,7 @@
         {{ getTitle(post) }}
       </h1>
       <p
-        class="flex-1 mt-2 leading-relaxed transition-all duration-300 text-black/60 dark:text-slate-500 dark:group-hover:text-white/80 group-hover:text-black"
+        class="flex-1 mt-2 leading-relaxed transition-all duration-300 text-black/60 dark:text-stone-500 dark:group-hover:text-white/80 group-hover:text-black"
       >
         {{ post.frontmatter.desc }}
       </p>
@@ -28,7 +28,7 @@
           v-for="(tag, tagIndex) in getTags(post)"
           :key="tagIndex"
           :class="tagIndex >= 1 ? 'ml-2' : ''"
-          class="px-2 text-sm border rounded-full border-sky-400/80 dark:border-zinc-200 text-sky-400 dark:text-zinc-200"
+          class="px-2 text-sm border rounded-full border-amber-500/80 dark:border-amber-400 text-amber-600 dark:text-amber-400"
         >
           {{ tag }}
         </p>

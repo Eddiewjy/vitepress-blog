@@ -11,7 +11,7 @@
       >
     </div>
 
-    <p class="mt-2 text-center text-black/50 dark:text-slate-500">{{ hero.subTitle }}</p>
+    <p class="mt-2 text-center text-black/50 dark:text-stone-500">{{ hero.subTitle }}</p>
 
     <!-- 主体 -->
     <ul class="grid grid-cols-1 pt-6 mt-6 lg:gap-8 lg:grid-cols-3">
@@ -21,9 +21,9 @@
         class="order-2 pt-6 lg:pt-0 lg:order-1 lg:mt-0"
       >
         <h1
-          class="pb-2 text-3xl font-bold transition-all duration-300 border-b-4 border-sky-500 dark:border-sky-700 w-fit hover:pr-6"
+          class="pb-2 text-3xl font-bold transition-all duration-300 border-b-4 border-amber-500 dark:border-amber-700 w-fit hover:pr-6"
         >
-          ✨ 近期更新
+          近期更新
         </h1>
         <div class="mt-4" :class="flow ? 'columns-1 lg:columns-2 gap-8' : ''">
           <PostCard

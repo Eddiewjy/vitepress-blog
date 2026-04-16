@@ -1,25 +1,25 @@
-/* 调整文档内容页面样式 */
+/* 调整文档内容页面样式 — Claude warm palette */
 
 /* 基础文字颜色，边框颜色，背景颜色 */
 :root {
-  --dora-text-indigo: #3a5ccc;
-  --dora-text-indigo-plus: #3451b2;
-  --dora-border-indigo: #3e63dd;
-  --dora-bg-indigo: #f0f4ff;
+  --dora-text-accent: #92400E;
+  --dora-text-accent-plus: #78350F;
+  --dora-border-accent: #D97706;
+  --dora-bg-accent: #FFFBEB;
 }
 .dark {
-  --dora-text-indigo: #99a2ff;
-  --dora-text-indigo-plus: #dddffe;
-  --dora-border-indigo: #99a2ff;
-  --dora-bg-indigo: #1a2242;
+  --dora-text-accent: #FCD34D;
+  --dora-text-accent-plus: #FDE68A;
+  --dora-border-accent: #F59E0B;
+  --dora-bg-accent: #451A03;
 }
 
 /* 文章背景 */
 .VPContent.has-sidebar {
   background-position: 50%;
   background-size: 20px 20px;
-  background-image: linear-gradient(90deg, rgba(60, 10, 30, 0.04) 3%, transparent 0),
-    linear-gradient(1turn, rgba(60, 10, 30, 0.04) 3%, transparent 0);
+  background-image: linear-gradient(90deg, rgba(120, 80, 40, 0.03) 3%, transparent 0),
+    linear-gradient(1turn, rgba(120, 80, 40, 0.03) 3%, transparent 0);
 }
 
 /* 标题 */
@@ -29,14 +29,14 @@
 .vp-doc h4,
 .vp-doc h5,
 .vp-doc h6 {
-  color: var(--dora-text-indigo);
+  color: var(--dora-text-accent);
   letter-spacing: 0.1em;
   @apply line-clamp-1;
 }
 
 .vp-doc h1 {
   padding-bottom: 0.5rem;
-  border-bottom: 4px solid var(--dora-border-indigo);
+  border-bottom: 3px solid var(--dora-border-accent);
   width: fit-content;
   @apply transition-all duration-300;
 }
@@ -46,18 +46,19 @@
 
 .vp-doc h2 {
   margin-top: 10px;
-  border-bottom: 3px solid var(--dora-border-indigo);
+  border-bottom: 2px solid var(--dora-border-accent);
   width: fit-content;
   padding-bottom: 4px;
-  border-top: 0px solid var(--dora-border-indigo);
+  border-top: 0px solid var(--dora-border-accent);
 }
 
 /* 引用 */
 .vp-doc blockquote {
   margin: 2em 0;
   padding: 24px 32px;
-  background: var(--dora-bg-indigo);
-  border-left: 2px solid var(--dora-border-indigo);
+  background: var(--dora-bg-accent);
+  border-left: 2px solid var(--dora-border-accent);
+  border-radius: 4px;
   position: relative;
 }
 
@@ -65,7 +66,7 @@
   content: "❝";
   top: 8px;
   left: 8px;
-  color: var(--dora-text-indigo-plus);
+  color: var(--dora-text-accent-plus);
   font-size: 30px;
   line-height: 1;
   font-weight: 700;
@@ -79,17 +80,17 @@
   position: absolute;
   right: 8px;
   bottom: 0;
-  color: var(--dora-text-indigo-plus);
+  color: var(--dora-text-accent-plus);
   opacity: 0.7;
 }
 
 .vp-doc blockquote > p {
-  color: var(--dora-text-indigo-plus);
+  color: var(--dora-text-accent-plus);
 }
 
 /* 列表 */
 .vp-doc li::marker {
-  color: var(--dora-text-indigo);
+  color: var(--dora-text-accent);
 }
 
 /* 表格 */
@@ -102,18 +103,18 @@
 }
 
 .vp-doc thead {
-  background: var(--dora-bg-indigo);
-  color: var(--dora-text-indigo);
+  background: var(--dora-bg-accent);
+  color: var(--dora-text-accent);
   text-align: left;
 }
 
 .vp-doc tr:nth-child(2n) {
-  background: var(--dora-bg-indigo);
+  background: var(--dora-bg-accent);
 }
 
 .vp-doc th {
-  color: var(--dora-text-indigo);
-  background: var(--dora-bg-indigo);
+  color: var(--dora-text-accent);
+  background: var(--dora-bg-accent);
 }
 
 .vp-doc th,
@@ -131,14 +132,14 @@
   @apply w-1;
 }
 .VPDocAsideOutline .content .root li .active {
-  color: var(--dora-text-indigo);
+  color: var(--dora-text-accent);
 }
 
 /* 底部导航按钮 */
 .VPDocFooter .prev-next .pager-link {
-  @apply bg-zinc-50/70 dark:bg-zinc-900;
+  @apply bg-stone-50/70 dark:bg-stone-900;
 }
 
 .vp-doc hr {
-  border-color: var(--dora-border-indigo);
+  border-color: var(--dora-border-accent);
 }

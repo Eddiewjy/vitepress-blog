@@ -1,37 +1,52 @@
 :root {
+  /* Claude warm palette — VitePress overrides */
+  --vp-c-brand-1: #D97706;
+  --vp-c-brand-2: #B45309;
+  --vp-c-brand-3: #92400E;
+  --vp-c-brand-soft: rgba(217, 119, 6, 0.14);
+  --vp-c-bg: #FAF9F6;
+  --vp-c-bg-soft: #F5F0EB;
+  --vp-c-bg-mute: #EDE8E3;
+
   /* 标题 */
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe, #41d1ff);
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #D97706, #DA7756);
   /* 图标背景 */
   --vp-home-hero-image-background-image: linear-gradient(
     135deg,
-    #f6ceec 10%,
-    #d939cd 100%
+    #F5E6D3 10%,
+    #D97706 100%
   );
   --vp-home-hero-image-filter: blur(100px);
   /* brand按钮 */
-  --vp-button-brand-bg: rgb(56, 189, 248);
-  --vp-button-brand-hover-bg: rgb(14, 165, 233);
+  --vp-button-brand-bg: #D97706;
+  --vp-button-brand-hover-bg: #B45309;
+}
+
+.dark {
+  --vp-c-bg: #1C1917;
+  --vp-c-bg-soft: #292524;
+  --vp-c-bg-mute: #44403C;
 }
 
 /* 条纹背景 */
 .bg-stripe:hover {
   background-image: repeating-linear-gradient(
     45deg,
-    hsl(0 0% 100%),
-    hsl(0 0% 100%) 13px,
-    hsl(0 0% 95%) 13px,
-    hsl(0 0% 95%) 14px
+    hsl(35 30% 98%),
+    hsl(35 30% 98%) 13px,
+    hsl(35 25% 94%) 13px,
+    hsl(35 25% 94%) 14px
   );
 }
 
 .dark .bg-stripe:hover {
   background-image: repeating-linear-gradient(
     45deg,
-    hsl(202, 80%, 24%),
-    hsl(202, 80%, 24%) 13px,
-    hsl(200, 80%, 20%) 13px,
-    hsl(200, 80%, 20%) 14px
+    hsl(30, 20%, 18%),
+    hsl(30, 20%, 18%) 13px,
+    hsl(30, 20%, 15%) 13px,
+    hsl(30, 20%, 15%) 14px
   );
 }
 
@@ -41,7 +56,6 @@
 
 /* 主页标题设置, 采用自定义的图片 */
 .main .name {
-  /* background-image: url("/title.png"); */
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -61,7 +75,7 @@
 
 /* 链接美化 */
 .vp-doc a {
-  @apply hover:text-blue-500 after:hover:opacity-100 dark:hover:text-blue-400;
+  @apply hover:text-amber-600 after:hover:opacity-100 dark:hover:text-amber-400;
 }
 
 /* 图片预览 */

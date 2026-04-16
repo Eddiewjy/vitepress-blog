@@ -9,6 +9,8 @@ import { computed } from "vue";
 const { color } = defineProps(["color"]);
 const getColor = computed(() => {
   switch (color) {
+    case "amber":
+      return "bg-amber-500";
     case "sky":
       return "bg-sky-500";
     case "pink":
@@ -20,7 +22,7 @@ const getColor = computed(() => {
     case "green":
       return "bg-green-500";
     default:
-      return "bg-gray-500";
+      return "bg-stone-500";
   }
 });
 </script>
