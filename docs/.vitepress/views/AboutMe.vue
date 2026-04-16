@@ -116,7 +116,7 @@
               <div class="flex items-start gap-4">
                 <span class="flex-shrink-0 w-1 h-full min-h-[2.5rem] rounded-full bg-amber-500"></span>
                 <div>
-                  <p class="font-semibold text-stone-800 dark:text-stone-100">哈啰普惠科技有限公司</p>
+                  <p class="font-semibold text-stone-800 dark:text-stone-100">哈啰集团</p>
                   <p class="text-sm text-stone-500 dark:text-stone-400">前端开发实习生</p>
                 </div>
               </div>
@@ -188,7 +188,7 @@
               <p class="text-xs font-medium tracking-[0.2em] uppercase text-white/60">Spirit</p>
               <div>
                 <p class="text-2xl font-bold text-white">Chris</p>
-                <p class="mt-1 text-sm text-white/50">Daddy's Home</p>
+                <p class="mt-1 text-sm text-white/50">Play Hard, Stay Humble</p>
               </div>
             </div>
           </div>
